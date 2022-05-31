@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2B8C0A284297A100777910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C09284297A100777910 /* AppDelegate.swift */; };
+		5D2B8C0C284297A100777910 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C0B284297A100777910 /* SceneDelegate.swift */; };
+		5D2B8C0E284297A100777910 /* LongTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C0D284297A100777910 /* LongTouchViewController.swift */; };
+		5D2B8C11284297A100777910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B8C0F284297A100777910 /* Main.storyboard */; };
+		5D2B8C13284297A300777910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B8C12284297A300777910 /* Assets.xcassets */; };
+		5D2B8C16284297A300777910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D2B8C14284297A300777910 /* LaunchScreen.storyboard */; };
+		5D2B8C21284297A300777910 /* LongTouch2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C20284297A300777910 /* LongTouch2Tests.swift */; };
+		5D2B8C2B284297A300777910 /* LongTouch2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C2A284297A300777910 /* LongTouch2UITests.swift */; };
+		5D2B8C2D284297A300777910 /* LongTouch2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C2C284297A300777910 /* LongTouch2UITestsLaunchTests.swift */; };
+		5D2B8C3C28429DC800777910 /* LongTouchCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D2B8C3B28429DC800777910 /* LongTouchCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D2B8C1D284297A300777910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2B8BFE284297A100777910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D2B8C05284297A100777910;
+			remoteInfo = LongTouch2;
+		};
+		5D2B8C27284297A300777910 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D2B8BFE284297A100777910 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D2B8C05284297A100777910;
+			remoteInfo = LongTouch2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D2B8C06284297A100777910 /* LongTouch2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LongTouch2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2B8C09284297A100777910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5D2B8C0B284297A100777910 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5D2B8C0D284297A100777910 /* LongTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouchViewController.swift; sourceTree = "<group>"; };
+		5D2B8C10284297A100777910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D2B8C12284297A300777910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D2B8C15284297A300777910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D2B8C17284297A300777910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D2B8C1C284297A300777910 /* LongTouch2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongTouch2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2B8C20284297A300777910 /* LongTouch2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouch2Tests.swift; sourceTree = "<group>"; };
+		5D2B8C26284297A300777910 /* LongTouch2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LongTouch2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2B8C2A284297A300777910 /* LongTouch2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouch2UITests.swift; sourceTree = "<group>"; };
+		5D2B8C2C284297A300777910 /* LongTouch2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouch2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D2B8C3B28429DC800777910 /* LongTouchCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongTouchCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2B8C03284297A100777910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2B8C19284297A300777910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2B8C23284297A300777910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2B8BFD284297A100777910 = {
+			isa = PBXGroup;
+			children = (
+				5D2B8C08284297A100777910 /* LongTouch2 */,
+				5D2B8C1F284297A300777910 /* LongTouch2Tests */,
+				5D2B8C29284297A300777910 /* LongTouch2UITests */,
+				5D2B8C07284297A100777910 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D2B8C07284297A100777910 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B8C06284297A100777910 /* LongTouch2.app */,
+				5D2B8C1C284297A300777910 /* LongTouch2Tests.xctest */,
+				5D2B8C26284297A300777910 /* LongTouch2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D2B8C08284297A100777910 /* LongTouch2 */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B8C09284297A100777910 /* AppDelegate.swift */,
+				5D2B8C0B284297A100777910 /* SceneDelegate.swift */,
+				5D2B8C0D284297A100777910 /* LongTouchViewController.swift */,
+				5D2B8C3B28429DC800777910 /* LongTouchCollectionViewCell.swift */,
+				5D2B8C0F284297A100777910 /* Main.storyboard */,
+				5D2B8C12284297A300777910 /* Assets.xcassets */,
+				5D2B8C14284297A300777910 /* LaunchScreen.storyboard */,
+				5D2B8C17284297A300777910 /* Info.plist */,
+			);
+			path = LongTouch2;
+			sourceTree = "<group>";
+		};
+		5D2B8C1F284297A300777910 /* LongTouch2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B8C20284297A300777910 /* LongTouch2Tests.swift */,
+			);
+			path = LongTouch2Tests;
+			sourceTree = "<group>";
+		};
+		5D2B8C29284297A300777910 /* LongTouch2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D2B8C2A284297A300777910 /* LongTouch2UITests.swift */,
+				5D2B8C2C284297A300777910 /* LongTouch2UITestsLaunchTests.swift */,
+			);
+			path = LongTouch2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D2B8C05284297A100777910 /* LongTouch2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2B8C30284297A300777910 /* Build configuration list for PBXNativeTarget "LongTouch2" */;
+			buildPhases = (
+				5D2B8C02284297A100777910 /* Sources */,
+				5D2B8C03284297A100777910 /* Frameworks */,
+				5D2B8C04284297A100777910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LongTouch2;
+			productName = LongTouch2;
+			productReference = 5D2B8C06284297A100777910 /* LongTouch2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D2B8C1B284297A300777910 /* LongTouch2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2B8C33284297A300777910 /* Build configuration list for PBXNativeTarget "LongTouch2Tests" */;
+			buildPhases = (
+				5D2B8C18284297A300777910 /* Sources */,
+				5D2B8C19284297A300777910 /* Frameworks */,
+				5D2B8C1A284297A300777910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D2B8C1E284297A300777910 /* PBXTargetDependency */,
+			);
+			name = LongTouch2Tests;
+			productName = LongTouch2Tests;
+			productReference = 5D2B8C1C284297A300777910 /* LongTouch2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D2B8C25284297A300777910 /* LongTouch2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2B8C36284297A300777910 /* Build configuration list for PBXNativeTarget "LongTouch2UITests" */;
+			buildPhases = (
+				5D2B8C22284297A300777910 /* Sources */,
+				5D2B8C23284297A300777910 /* Frameworks */,
+				5D2B8C24284297A300777910 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D2B8C28284297A300777910 /* PBXTargetDependency */,
+			);
+			name = LongTouch2UITests;
+			productName = LongTouch2UITests;
+			productReference = 5D2B8C26284297A300777910 /* LongTouch2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D2B8BFE284297A100777910 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5D2B8C05284297A100777910 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					5D2B8C1B284297A300777910 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5D2B8C05284297A100777910;
+					};
+					5D2B8C25284297A300777910 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 5D2B8C05284297A100777910;
+					};
+				};
+			};
+			buildConfigurationList = 5D2B8C01284297A100777910 /* Build configuration list for PBXProject "LongTouch2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D2B8BFD284297A100777910;
+			productRefGroup = 5D2B8C07284297A100777910 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D2B8C05284297A100777910 /* LongTouch2 */,
+				5D2B8C1B284297A300777910 /* LongTouch2Tests */,
+				5D2B8C25284297A300777910 /* LongTouch2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D2B8C04284297A100777910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B8C16284297A300777910 /* LaunchScreen.storyboard in Resources */,
+				5D2B8C13284297A300777910 /* Assets.xcassets in Resources */,
+				5D2B8C11284297A100777910 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2B8C1A284297A300777910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2B8C24284297A300777910 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2B8C02284297A100777910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B8C0E284297A100777910 /* LongTouchViewController.swift in Sources */,
+				5D2B8C0A284297A100777910 /* AppDelegate.swift in Sources */,
+				5D2B8C3C28429DC800777910 /* LongTouchCollectionViewCell.swift in Sources */,
+				5D2B8C0C284297A100777910 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2B8C18284297A300777910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B8C21284297A300777910 /* LongTouch2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D2B8C22284297A300777910 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2B8C2B284297A300777910 /* LongTouch2UITests.swift in Sources */,
+				5D2B8C2D284297A300777910 /* LongTouch2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D2B8C1E284297A300777910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D2B8C05284297A100777910 /* LongTouch2 */;
+			targetProxy = 5D2B8C1D284297A300777910 /* PBXContainerItemProxy */;
+		};
+		5D2B8C28284297A300777910 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D2B8C05284297A100777910 /* LongTouch2 */;
+			targetProxy = 5D2B8C27284297A300777910 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D2B8C0F284297A100777910 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2B8C10284297A100777910 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D2B8C14284297A300777910 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2B8C15284297A300777910 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D2B8C2E284297A300777910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D2B8C2F284297A300777910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2B8C31284297A300777910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TYL7A6LG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LongTouch2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xodn.LongTouch2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D2B8C32284297A300777910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TYL7A6LG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LongTouch2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xodn.LongTouch2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D2B8C34284297A300777910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TYL7A6LG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xodn.LongTouch2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongTouch2.app/LongTouch2";
+			};
+			name = Debug;
+		};
+		5D2B8C35284297A300777910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TYL7A6LG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xodn.LongTouch2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LongTouch2.app/LongTouch2";
+			};
+			name = Release;
+		};
+		5D2B8C37284297A300777910 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TYL7A6LG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xodn.LongTouch2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongTouch2;
+			};
+			name = Debug;
+		};
+		5D2B8C38284297A300777910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7TYL7A6LG8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xodn.LongTouch2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LongTouch2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D2B8C01284297A100777910 /* Build configuration list for PBXProject "LongTouch2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2B8C2E284297A300777910 /* Debug */,
+				5D2B8C2F284297A300777910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2B8C30284297A300777910 /* Build configuration list for PBXNativeTarget "LongTouch2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2B8C31284297A300777910 /* Debug */,
+				5D2B8C32284297A300777910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2B8C33284297A300777910 /* Build configuration list for PBXNativeTarget "LongTouch2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2B8C34284297A300777910 /* Debug */,
+				5D2B8C35284297A300777910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2B8C36284297A300777910 /* Build configuration list for PBXNativeTarget "LongTouch2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2B8C37284297A300777910 /* Debug */,
+				5D2B8C38284297A300777910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D2B8BFE284297A100777910 /* Project object */;
+}
